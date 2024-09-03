@@ -5,9 +5,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: indigo;
+  color: aliceblue;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
 }
+
+.main input{
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.main button{
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.allList{
+  margin-top: 10px;
+}
+
+.allList p{
+}
+.allList p span{
+  margin-left: 50px;
+  cursor: pointer;
+}
+
